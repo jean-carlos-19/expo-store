@@ -1,6 +1,17 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/controllers": ["./src/controllers"],
+      "@/models": ["./src/models"],
+      "@/services": ["./src/services"],
+      "@/views": ["./src/views"],
+      "@/atomic/element": ["./global/atomic/element"],
+      "@/atomic/component": ["./global/atomic/component"],
+      "@/atomic/design": ["./global/atomic/design"]
+    },
     "strict": true
-  }
+  },
+  "typeRoots": ["./types"]
 }
