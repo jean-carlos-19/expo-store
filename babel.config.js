@@ -15,7 +15,7 @@ module.exports = function (api) {
             "@/atomic/element": "./atomic/element",
             "@/atomic/component": "./atomic/component",
             "@/atomic/design": "./atomic/design",
-            "@/global":["./global"]
+            "@/global":"./global"
           },
         },
       ],
