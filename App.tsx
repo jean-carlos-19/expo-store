@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {RootStackParamList} from '@/global/routes'
-import {Home} from '@/views'
+import {Home,Store} from '@/views'
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -19,7 +19,7 @@ export default function App() {
           headerShown:false
         }}
         name='Store'
-        component={Home}
+        component={Store}
       />
     </Stack.Navigator>
   );
