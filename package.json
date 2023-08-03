@@ -2,6 +2,25 @@
   "name": "store-expo",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "keywords": [
+    "Expo",
+    "Formik",
+    "Tailwind",
+    "NativeWind",
+    "Typescript",
+    "YupJs",
+  ],
+  "homepage": "https://www.piguavesof.com",
+  "demo": "",
+  "author": {
+    "name": "Jean Carlos Piguave Alvarado",
+    "email": "piguavejc@gmail.com",
+    "url": "https://github.com/jean-carlos-19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jean-carlos-19/store-expo.git"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
