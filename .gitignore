@@ -1,17 +1,35 @@
+# Node.js
 node_modules/
-.expo/
-dist/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+npm-debug.log
+yarn-error.log
+
+# Expo-specific
+.expo
+__generated__
+ios/Pods
+android/app/build
+
+# EAS-specific
+eas-build-cache/
+eas-builds/
+
+# IDE-specific files
+.idea/
+.vscode/
 
 # macOS
 .DS_Store
 
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+# Logs
+logs/
+
+# Environment variables
+.env
+
+# Android build files
+/build/
+
+# iOS build files
+/ios/Pods/
+/ios/DerivedData/
+/ios/build/
